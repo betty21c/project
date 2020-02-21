@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var exam = new Object(); // Java Script 동적객체 생성
+        exam.kor = 30;
+        exam.eng = 70
+        exam.math = 80;
+
+        exam.Kor = 20; // kor, Kor 오타 주의 필요함
+        console.log(exam.kor);
+
+        // alert(exam["kor"])
+        // alert(exam.kor)
+
+        var exam2 = {"kor":30, "eng":70, "math":30};
+        console.log(exam2.kor + exam2.eng);
+
+    </script>
+</body>
+</html>
